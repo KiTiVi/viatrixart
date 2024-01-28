@@ -9,7 +9,7 @@ export default function Home() {
       <div className="logo">
         <Image
           alt="Viatrix Art"
-          src="/assets/logo_shadow.png"
+          src="/viatrixart/assets/logo_shadow.png"
           layout="fill"
           objectFit="contain"
         />
