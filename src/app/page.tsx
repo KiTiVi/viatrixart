@@ -22,7 +22,7 @@ export default function Home() {
         <a className="link" href="https://www.facebook.com/viatrixsart">
           <Image
             alt="Viatrix Art"
-            src="/assets/svg/fb.svg"
+            src="/viatrixart/assets/svg/fb.svg"
             height={32}
             width={32}
           />
@@ -31,7 +31,7 @@ export default function Home() {
         <a className="link" href="https://www.instagram.com/viatrixart">
           <Image
             alt="Viatrix Art"
-            src="/assets/svg/ig.svg"
+            src="/viatrixart/assets/svg/ig.svg"
             height={32}
             width={32}
           />
