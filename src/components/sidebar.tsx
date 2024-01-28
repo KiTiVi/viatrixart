@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { Logo } from './logo';
 import { Nav } from './nav';
 import Image from 'next/image';
-import backgroundImg from '@/assets/ferenc-horvath-skcFiBu91AA-unsplash.jpg';
 
 export const Sidebar = () => {
   return (
@@ -12,7 +11,7 @@ export const Sidebar = () => {
       <ImageContainer>
         <Image
           alt="galaxy"
-          src={backgroundImg}
+          src="/assets/ferenc-horvath-skcFiBu91AA-unsplash.jpg"
           layout="fill"
           objectFit="cover"
         />
