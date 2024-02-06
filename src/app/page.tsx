@@ -9,7 +9,7 @@ export default function Home() {
       <div className="logo">
         <Image
           alt="Viatrix Art"
-          src="/viatrixart/assets/logo_shadow.png"
+          src="/assets/logo_shadow.png"
           layout="fill"
           objectFit="contain"
         />
@@ -20,7 +20,7 @@ export default function Home() {
         <a className="link" href="https://www.facebook.com/viatrixsart">
           <Image
             alt="Viatrix Art"
-            src="/viatrixart/assets/svg/fb.svg"
+            src="/assets/svg/fb.svg"
             height={32}
             width={32}
           />
@@ -29,7 +29,7 @@ export default function Home() {
         <a className="link" href="https://www.instagram.com/viatrixart">
           <Image
             alt="Viatrix Art"
-            src="/viatrixart/assets/svg/ig.svg"
+            src="/assets/svg/ig.svg"
             height={32}
             width={32}
           />
