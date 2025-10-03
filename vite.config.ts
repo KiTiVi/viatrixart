@@ -4,7 +4,7 @@ import { tanstackRouter } from '@tanstack/router-plugin/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/viatrixart/',
+  base: process.env.VITE_BASE_PATH || '/',
   plugins: [
     tanstackRouter({
       target: 'react',
