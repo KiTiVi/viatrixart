@@ -1,7 +1,7 @@
 import { Link } from '@tanstack/react-router';
 import { Nav } from './nav';
-import galaxy from 'src/assets/ferenc-horvath-skcFiBu91AA-unsplash.jpg';
-import logo from 'src/assets/logo.png';
+import galaxy from '@assets/ferenc-horvath-skcFiBu91AA-unsplash.jpg';
+import logo from '@assets/logo.png';
 import './sidebar.css';
 
 export const Sidebar: React.FC = () => {
