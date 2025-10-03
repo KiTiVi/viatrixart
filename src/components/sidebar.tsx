@@ -7,7 +7,7 @@ export const Sidebar: React.FC = () => {
     <aside className="sidebar">
       <div className="sidebar-background-container">
         <img
-          src="/assets/ferenc-horvath-skcFiBu91AA-unsplash.jpg"
+          src="/viatrixart/assets/ferenc-horvath-skcFiBu91AA-unsplash.jpg"
           alt="galaxy"
           className="sidebar-background"
         />

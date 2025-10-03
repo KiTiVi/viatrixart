@@ -5,7 +5,6 @@ import { tanstackRouter } from '@tanstack/router-plugin/vite';
 // https://vite.dev/config/
 export default defineConfig({
   base: '/viatrixart/',
-  publicDir: '/viatrixart/public',
   plugins: [
     tanstackRouter({
       target: 'react',
