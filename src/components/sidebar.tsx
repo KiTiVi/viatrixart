@@ -1,4 +1,5 @@
 import { Link } from '@tanstack/react-router';
+import { Image } from './image';
 import { Nav } from './nav';
 import './sidebar.css';
 
@@ -6,16 +7,16 @@ export const Sidebar: React.FC = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-background-container">
-        <img
-          src="/viatrixart/assets/ferenc-horvath-skcFiBu91AA-unsplash.jpg"
+        <Image
           alt="galaxy"
+          src="assets/ferenc-horvath-skcFiBu91AA-unsplash.jpg"
           className="sidebar-background"
         />
       </div>
       <Link to="/">
-        <img
-          src="/assets/logo.png"
+        <Image
           alt="viatrixart.com"
+          src="assets/logo.png"
           className="sidebar-logo"
         />
       </Link>
